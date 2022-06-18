@@ -1,0 +1,18 @@
+### Admin CMS APIs
+
+### Root API
+GET http://localhost:8001/
+
+### Create new admin
+POST http://localhost:8001/api/v1/admin
+Content-Type: application/json
+
+{
+    "fname":"Bijay",
+    "lname":"Nagarkoti",
+    "email":"a@gmail.com",
+    "password":"ASDFJKL;",
+    "phone":"8383838383",
+    "address":"Sydney",
+    "gender":"male"
+}
