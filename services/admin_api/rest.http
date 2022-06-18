@@ -11,6 +11,7 @@ Content-Type: application/json
     "fname":"Bijay",
     "lname":"Nagarkoti",
     "email":"a@gmail.com",
+    "dob":"12-12-2829",
     "password":"ASDFJKL;",
     "phone":"8383838383",
     "address":"Sydney",

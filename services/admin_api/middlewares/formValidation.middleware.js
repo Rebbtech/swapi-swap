@@ -18,8 +18,6 @@ export const createAdminValidation = (req, res, next) => {
 
     const value = schema.validate(req.body);
 
-    console.log(value);
-
     if (value.error) {
         return res.json({
             status: 'error',
